@@ -2,49 +2,23 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23220" started-at="2016-05-19T01:51:10Z" finished-at="2016-05-19T01:51:33Z">
+  <suite name="Default suite" duration-ms="85308" started-at="2016-05-20T02:29:05Z" finished-at="2016-05-20T02:30:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23220" started-at="2016-05-19T01:51:10Z" finished-at="2016-05-19T01:51:33Z">
+    <test name="Default test" duration-ms="85308" started-at="2016-05-20T02:29:05Z" finished-at="2016-05-20T02:30:30Z">
       <class name="login.LoginTeste">
-        <test-method status="PASS" signature="inciaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="inciaTeste" is-config="true" duration-ms="6520" started-at="2016-05-18T22:51:10Z" finished-at="2016-05-18T22:51:16Z">
+        <test-method status="PASS" signature="inciaTeste()[pri:0, instance:login.LoginTeste@10e92f8f]" name="inciaTeste" is-config="true" duration-ms="46545" started-at="2016-05-19T23:29:05Z" finished-at="2016-05-19T23:29:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inciaTeste -->
-        <test-method status="FAIL" signature="testeLogin()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="testeLogin" duration-ms="16392" started-at="2016-05-18T22:51:16Z" finished-at="2016-05-18T22:51:33Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="testeLogin()[pri:0, instance:login.LoginTeste@10e92f8f]" name="testeLogin" duration-ms="38532" started-at="2016-05-19T23:29:52Z" finished-at="2016-05-19T23:30:30Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: cannot focus element
-  (Session info: chrome=49.0.2623.108)
-  (Driver info: chromedriver=2.21.371461 (633e689b520b25f3e264a2ede6b74ccc23cb636a),platform=Linux 4.4.0-22-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 80 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'deivid-R480-R431-R481', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-22-generic', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371461 (633e689b520b25f3e264a2ede6b74ccc23cb636a), userDataDir=/tmp/.com.google.Chrome.XiX4YS}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6bea2f937050df68ae5b4a3aec7ffba4]]>
+              <![CDATA[Não foi possível realizar o login na aplicação]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot focus element
-  (Session info: chrome=49.0.2623.108)
-  (Driver info: chromedriver=2.21.371461 (633e689b520b25f3e264a2ede6b74ccc23cb636a),platform=Linux 4.4.0-22-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 80 milliseconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'deivid-R480-R431-R481', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-22-generic', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371461 (633e689b520b25f3e264a2ede6b74ccc23cb636a), userDataDir=/tmp/.com.google.Chrome.XiX4YS}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6bea2f937050df68ae5b4a3aec7ffba4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
-	at pageObjects.login.Login.preencherCampoSenha(Login.java:41)
-	at login.LoginTeste.testeLogin(LoginTeste.java:18)
+              <![CDATA[java.lang.AssertionError: Não foi possível realizar o login na aplicação
+	at login.LoginTeste.testeLogin(LoginTeste.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,11 +45,11 @@ Session ID: 6bea2f937050df68ae5b4a3aec7ffba4
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testeLogin -->
-        <test-method status="PASS" signature="finalizaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="finalizaTeste" is-config="true" duration-ms="265" started-at="2016-05-18T22:51:33Z" finished-at="2016-05-18T22:51:33Z">
+        <test-method status="PASS" signature="finalizaTeste()[pri:0, instance:login.LoginTeste@10e92f8f]" name="finalizaTeste" is-config="true" duration-ms="163" started-at="2016-05-19T23:30:30Z" finished-at="2016-05-19T23:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaTeste -->
