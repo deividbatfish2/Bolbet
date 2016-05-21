@@ -58,5 +58,21 @@ public class Login extends Base{
 	public void clicarNoBotaoEntrar(){
 		botaoEntrar.click();
 	}
+
+	public boolean verificaUsuarioLogado(String nome) {
+		try{
+			navegador.findElement(By.cssSelector("a[class=\"dropdown-toggle fw600 p15\"] span"));
+			if(nome.equals(navegador.findElement(By.cssSelector("a[class=\"dropdown-toggle fw600 p15\"] span")).getText())){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+		catch(Exception e){
+			return false;
+		}
+		
+	}
 	
 }

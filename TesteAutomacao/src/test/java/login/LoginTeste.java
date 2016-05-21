@@ -15,11 +15,11 @@ public class LoginTeste extends BaseTeste{
 		PaginaInicial paginaInicial = new PaginaInicial(navegadorLocal);
 		HomePage home = paginaInicial.acessarSistema();
 		Login paginaLogin = home.logarNoSistema();
-		paginaLogin.preencherCampoEmail("Teste@teste.com");
-		paginaLogin.preencherCampoSenha("Senha");
+		paginaLogin.preencherCampoEmail("hebinhopassamani@gmail.com");
+		paginaLogin.preencherCampoSenha("123");
 		paginaLogin.clicarNoBotaoEntrar();
 		try{
-			assertTrue(false);
+			assertTrue(paginaLogin.verificaUsuarioLogado("Antonio Heber."));
 		}
 		catch (AssertionError e) {
 			bug.registraErro(navegadorLocal);
