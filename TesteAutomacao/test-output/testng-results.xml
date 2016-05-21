@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24445" started-at="2016-05-21T16:39:32Z" finished-at="2016-05-21T16:39:56Z">
+  <suite name="Default suite" duration-ms="24789" started-at="2016-05-21T18:14:07Z" finished-at="2016-05-21T18:14:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24445" started-at="2016-05-21T16:39:32Z" finished-at="2016-05-21T16:39:56Z">
+    <test name="Default test" duration-ms="24789" started-at="2016-05-21T18:14:07Z" finished-at="2016-05-21T18:14:31Z">
       <class name="login.LoginTeste">
-        <test-method status="PASS" signature="inciaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="inciaTeste" is-config="true" duration-ms="5357" started-at="2016-05-21T13:39:32Z" finished-at="2016-05-21T13:39:37Z">
+        <test-method status="PASS" signature="inciaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="inciaTeste" is-config="true" duration-ms="6284" started-at="2016-05-21T15:14:07Z" finished-at="2016-05-21T15:14:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inciaTeste -->
-        <test-method status="FAIL" signature="testeLogin()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="testeLogin" duration-ms="18888" started-at="2016-05-21T13:39:37Z" finished-at="2016-05-21T13:39:56Z">
+        <test-method status="FAIL" signature="testeLogin()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="testeLogin" duration-ms="18243" started-at="2016-05-21T15:14:13Z" finished-at="2016-05-21T15:14:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Não foi possível realizar o login na aplicação]]>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testeLogin -->
-        <test-method status="PASS" signature="finalizaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="finalizaTeste" is-config="true" duration-ms="159" started-at="2016-05-21T13:39:56Z" finished-at="2016-05-21T13:39:56Z">
+        <test-method status="PASS" signature="finalizaTeste()[pri:0, instance:login.LoginTeste@8bd1b6a]" name="finalizaTeste" is-config="true" duration-ms="218" started-at="2016-05-21T15:14:31Z" finished-at="2016-05-21T15:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaTeste -->

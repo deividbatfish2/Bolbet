@@ -61,7 +61,7 @@ public class Login extends Base{
 
 	public boolean verificaUsuarioLogado(String nome) {
 		try{
-			navegador.findElement(By.cssSelector("a[class=\"dropdown-toggle fw600 p15\"] span"));
+			aguarde.until(ExpectedConditions.visibilityOf(navegador.findElement(By.cssSelector("a[class=\"dropdown-toggle fw600 p15\"] span"))));
 			if(nome.equals(navegador.findElement(By.cssSelector("a[class=\"dropdown-toggle fw600 p15\"] span")).getText())){
 				return true;
 			}

@@ -19,14 +19,12 @@ public class LoginTeste extends BaseTeste{
 		paginaLogin.preencherCampoSenha("123");
 		paginaLogin.clicarNoBotaoEntrar();
 		try{
-			assertTrue(paginaLogin.verificaUsuarioLogado("Antonio Heber."));
+			assertTrue(paginaLogin.verificaUsuarioLogado("Antonio Heber"));
 		}
 		catch (AssertionError e) {
 			bug.registraErro(navegadorLocal);
 			throw new AssertionError("Não foi possível realizar o login na aplicação");
 		}
-		
-		System.out.println("testes");
 	}
 
 }
